@@ -5,7 +5,6 @@ import requests
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 def init_browser():
 
     executable_path = {'executable_path': ChromeDriverManager().install()}
